@@ -1,0 +1,224 @@
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: #1f2129;
+    /* background: #f3f6ff; */
+}
+.img-cercle{
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
+    position:relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.img-cercle::before{
+    content: "";
+    background-image: conic-gradient(#FF66C4 20deg, #0000 120deg) ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: circlee 2s linear infinite;
+}
+@keyframes circlee {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.round{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(#FF66C4, #66cfff);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: translate(-50px, -350px);
+    z-index: 0;
+    animation: round-ani 2s linear infinite;
+}
+@keyframes round-ani {
+    0%{
+        transform:scale(1) rotate(0deg) ;
+    }
+    50%{
+        transform:scale(1.2) rotate(180deg) ;
+    }
+    100%{
+        transform: scale(1) rotate(360deg) ;
+    }
+}
+
+.round-2{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    right: 60%;
+    background: linear-gradient(45deg, #FF66C4, #66cfff);
+    border-radius: 50%;
+    transform: translateX(-100%);
+    box-shadow: 2px 1px 15px #1f2129a4;
+}
+
+.star{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 25%;
+    width: 20%;
+}
+.star-item{
+    position: absolute;
+    font-size: 30px;
+}
+.star-item:nth-child(1){
+    top: 0;
+    right: 0;
+    color: #ffc507;
+    animation: star-1 2s linear infinite;
+}
+.star-item:nth-child(2){
+    top: 35%;
+    right: 0;
+    color: #a4a5a5;
+    animation: star-2 2s linear infinite;
+}
+.star-item:nth-child(3){
+    bottom: 0;
+    right: 0;
+    color: #ffc507;
+    animation: star-1 2s linear infinite;
+}
+.star-item:nth-child(4){
+    bottom: 35%;
+    right: 35%;
+    color: #ffc507;
+    animation: star-1 2s linear infinite;
+}
+.star-item:nth-child(5){
+    bottom: 0;
+    right: 35%;
+    color: #a4a5a5;
+    animation: star-2 2s linear infinite;
+}
+.star-item:nth-child(6){
+    bottom: 0;
+    right: 70%;
+    color: #ffc507;
+    animation: star-1 2s linear infinite;
+}
+@keyframes star-1 {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform:scale(0.5) ;
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1) ;
+        opacity: 1;
+    }
+}
+@keyframes star-2 {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    25%{
+        transform:scale(0.5) ;
+        opacity: 0;
+    }
+    50%{
+        transform:scale(1.3) ;
+        opacity: 1;
+    }
+    75%{
+        transform: scale(0.5) ;
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1) ;
+        opacity: 1;
+    }
+}
+
+
+.hero-btn-group{
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-btn-group>button{
+    border: 2px solid #FF66C4;
+    width: 140px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 10;
+}
+.hero-btn-group> .bridge{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: #FF66C4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-btn-group> .bridge .top{
+    position: absolute;
+    height: 45px;
+    width: 40px;
+    border-radius: 50%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+.hero-btn-group> .bridge .bottom{
+    position: absolute;
+    height: 45px;
+    width: 40px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+}
+
+.hero-btn-group>button:first-child{
+    background: #FF66C4;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .img-cercle{
+        height: 280px;
+        width: 280px;
+        border-radius: 50%;
+        position:relative;
+        overflow: hidden;
+    }
+    .round{
+        height: 100px;
+        width: 100px;
+        top: 10px;
+        left: 10px;
+    }
+    .star{
+        height: 30%;
+        width: 25%;
+    }
+    .hero-btn-group{
+        margin: 0 auto;
+    }
+  }
