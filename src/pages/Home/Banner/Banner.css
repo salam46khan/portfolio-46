@@ -1,8 +1,8 @@
 .banner{
     height: 100vh;
     width: 100%;
-    background: #1f2129;
-    /* background: #f3f6ff; */
+    /* background: #1f2129;
+    background: #f3f6ff; */
 }
 .img-cercle{
     height: 360px;
@@ -45,7 +45,7 @@
         transform:scale(1) rotate(0deg) ;
     }
     50%{
-        transform:scale(1.2) rotate(180deg) ;
+        transform:scale(1.25) rotate(180deg) ;
     }
     100%{
         transform: scale(1) rotate(360deg) ;
@@ -62,7 +62,7 @@
     background: linear-gradient(45deg, #FF66C4, #66cfff);
     border-radius: 50%;
     transform: translateX(-100%);
-    box-shadow: 2px 1px 15px #1f2129a4;
+    box-shadow: -1px 2px 8px #1f2129a4;
 }
 
 .star{
@@ -118,7 +118,7 @@
         opacity: 1;
     }
     50%{
-        transform:scale(0.5) ;
+        transform:scale(0.3) ;
         opacity: 0;
     }
     100%{
@@ -156,6 +156,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 .hero-btn-group>button{
     border: 2px solid #FF66C4;
@@ -194,9 +195,6 @@
     transform: translate(-50%, 80%);
 }
 
-.hero-btn-group>button:first-child{
-    background: #FF66C4;
-}
 
 
 

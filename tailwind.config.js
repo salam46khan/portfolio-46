@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,7 +9,10 @@ export default {
     extend: {
       colors: {
         pinkColor: '#FF66C4',
-        lightBlueColor: '#66cfff'
+        skyBlueColor: '#08b1ff',
+        lightBlueColor: '#66cfff',
+        lightColor: '#f3f6ff',
+        darkColor: '#1f2129'
       },
       fontFamily: {
         NormalText: ["Poppins", "sans-serif"],

@@ -4,13 +4,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-    --pinkColor: #FF66C4,
+:root {
+    --pinkColor: #FF66C4;
+    --blueColor: #66cfff;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1024px;
-    padding: 5px;
+    /* padding: 5px; */
     margin: 0 auto;
     /* border: 1px solid var(--pinkColor); */
+}
+
+.blur-bg {
+    position: absolute;
+    width: 30%;
+    height: 60vh;
+    border-radius: 50%;
+    z-index: 1;
+    filter: blur(60px);
+    transform: rotate(30deg);
+    background: linear-gradient(#66cfff60 , #FF66C465 );
+}
+
+
+@media only screen and (max-width: 600px) {
+    .blur-bg{
+        width: 50%;
+    }
 }
