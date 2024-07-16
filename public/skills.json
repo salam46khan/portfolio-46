@@ -1,0 +1,86 @@
+[
+    {
+        "_id": "1",
+        "icon": "https://i.ibb.co/JRtCwgv/html-5.png",
+        "technology": "HTML-5",
+        "sub_title": "A markup language",
+        "process_length": 90
+    },
+    {
+        "_id": "2",
+        "icon": "https://i.ibb.co/xG50CgZ/css-3.png",
+        "technology": "CSS-3",
+        "sub_title": "Stylesheets language",
+        "process_length": 85
+    },
+    {
+        "_id": "3",
+        "icon": "https://i.ibb.co/Fm1kbnq/java-script.png",
+        "technology": "Javascript",
+        "sub_title": "A scripting language",
+        "process_length": 80
+    },
+    {
+        "_id": "4",
+        "icon": "https://i.ibb.co/5RNbjJt/sass.png",
+        "technology": "SASS",
+        "sub_title": "CSS pre-processor",
+        "process_length": 60
+    },
+    {
+        "_id": "5",
+        "icon": "https://i.ibb.co/gy1G75g/react-2.png",
+        "technology": "React",
+        "sub_title": "Javascript library for UI",
+        "process_length": 75
+    },
+    {
+        "_id": "6",
+        "icon": "https://i.ibb.co/S6BmK9P/bootstrap.png",
+        "technology": "Bootstrap",
+        "sub_title": "CSS Framework",
+        "process_length": 80
+    },
+    {
+        "_id": "7",
+        "icon": "https://i.ibb.co/7NvD5f6/tailwind-css.png",
+        "technology": "Tailwind CSS",
+        "sub_title": "CSS Framework",
+        "process_length": 85
+    },
+    {
+        "_id": "8",
+        "icon": "https://i.ibb.co/4ZWZDKY/expressjs-logo-icon-169185.png",
+        "technology": "Express JS",
+        "sub_title": "Framework for Node.js",
+        "process_length": 60
+    },
+    {
+        "_id": "9",
+        "icon": "https://i.ibb.co/tq58bRv/mongodb-original-logo-icon-146424.png",
+        "technology": "MongoDB",
+        "sub_title": "NoSQL database",
+        "process_length": 65
+    },
+    {
+        "_id": "10",
+        "icon": "https://i.ibb.co/80pv46K/nextjs-icon-svgrepo-com.png",
+        "technology": "Next JS",
+        "sub_title": "React framework",
+        "process_length": 40
+    },
+    {
+        "_id": "11",
+        "icon": "https://i.ibb.co/cT7GD4f/1693917399837.png",
+        "technology": "Mongoose",
+        "sub_title": "(ODM) library",
+        "process_length": 40
+    },
+    {
+        "_id": "11",
+        "icon": "https://i.ibb.co/7YpGj5K/firebase-logo-icon-171157.png",
+        "technology": "Firebase",
+        "sub_title": "backend services",
+        "process_length": 60
+    }
+]

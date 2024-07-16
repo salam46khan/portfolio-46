@@ -1,0 +1,19 @@
+.about-pic{
+    position: relative;
+    animation: aboutPic 5s infinite ease-in-out;
+}
+@keyframes aboutPic {
+    0%{
+        transform: translate(0, 0), scale(1);
+    }
+    40%{
+        transform:translate(5px, -1px) scale(0.995);
+    }
+    70%{
+        transform: translate(-5px, 1px), scale(0.995);
+    }
+   
+    100%{
+        transform: translate(0,0), scale(1);
+    }
+}

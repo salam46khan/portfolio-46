@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import aboutPic from '../../../assets/svg/Programming-amico.svg'
 import MyBtn from '../../../shared/MyBtn/MyBtn';
+import './AboutSection.css'
 const AboutSection = () => {
     return (
         <div className="container flex flex-col md:flex-row justify-center items-center gap-5 p-3 text-darkColor">
             <div className="w-full md:w-1/2">
-                <img className='w-full' src={aboutPic} alt="" />
+                <img className='w-full about-pic' src={aboutPic} alt="" />
             </div>
             <div className="w-full md:w-1/2">
                 <h3 className="border-b-4 border-pinkColor inline-block pr-6 font-bold text-3xl mb-3 dark:text-lightColor">About Me</h3>
