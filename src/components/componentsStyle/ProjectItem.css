@@ -1,0 +1,62 @@
+.project-card{
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.project-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 5px #0007;
+}
+.project-card img{
+    transition: 0.3s ease-in-out;
+}
+.project-card:hover img{
+    transform: scale(1.05);
+}
+.shadow-line{
+    position: absolute;
+    bottom: 20%;
+    left: -50%;
+    height: 120px;
+    width: 200%;
+    background: #ffffff20;
+    transform:translate(-20%, 300%) rotate(30deg);
+    transition: 0.5s ease-in-out;
+
+}
+.shadow-line::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #ffffff20;
+    height: 10%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.shadow-line::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #ffffff20;
+    height: 60%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.project-card:hover .shadow-line{
+    transform: translate(10%, -300%) rotate(30deg);
+}
+
+.round-btn{
+    height: 30px;
+    width: 56px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fa2bde2d;
+    transition: 0.3 ease-in-out;
+    position: relative;
+}

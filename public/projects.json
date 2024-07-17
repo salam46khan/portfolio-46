@@ -1,0 +1,62 @@
+[
+    {
+        "_id": 1,
+        "project_name": "T.G.P Blood Bank",
+        "description": " Blood Bank management website",
+        "cover_photo": "https://i.ibb.co/wYdJH9J/TGP-Blood-Bank.png",
+        "technology": "Javascript, React JS, Express JS, MongoDB, firebase, TanStack query",
+        "live_link": "https://tgp-blood-bank.web.app/",
+        "github_link": "https://github.com/salam46khan/tgp-blood-bank",
+        "video_link": "https://youtu.be/aVmKfms9zHE?si=u54K-EH2BufrDf7q"
+    },
+    {
+        "_id": 2,
+        "project_name": "Alokito Kobita",
+        "description": "Blog website for poem lovers",
+        "cover_photo": "https://i.ibb.co/qxDtr1D/Alokito-kobita-1.png",
+        "technology": "Javascript, React JS, Express JS, MongoDB, firebase, TanStack query",
+        "live_link": "https://alokito-kobita.web.app/",
+        "github_link": "https://github.com/salam46khan/alokito-kobita",
+        "video_link": "https://youtu.be/Eu2boFu6qBs?si=v2AvljB8AphQFvL4"
+    },
+    {
+        "_id": 3,
+        "project_name": "Roam Plus",
+        "description": "Offline tourist guideline website",
+        "cover_photo": "https://i.ibb.co/fMMRTJ2/roam.png",
+        "technology": "Javascript, React JS, Express JS, MongoDB, firebase",
+        "live_link": "https://roam-plus-70bf9.web.app/",
+        "github_link": "https://github.com/salam46khan/roam-plus",
+        "video_link": "https://www.youtube.com/@ExplorewithSalam"
+    },
+    {
+        "_id": 4,
+        "project_name": "Daily CityScope",
+        "description": "Online News paper website",
+        "cover_photo": "https://i.ibb.co/vDtjLd3/dailynews.png",
+        "technology": "Javascript, React JS, Express JS, MongoDB, firebase",
+        "live_link": "https://daily-city-scope.web.app",
+        "github_link": "https://github.com/salam46khan/daily-city-scope",
+        "video_link": "https://youtu.be/juzIy0l21zc?si=vCiR5bWNIFnS1QHH"
+    },
+    {
+        "_id": 5,
+        "project_name": "Kiddie Korner",
+        "description": "baby toy product website",
+        "cover_photo": "https://i.ibb.co/42DWKyK/Kiddie-Korner.png",
+        "technology": "Javascript, React JS, Express JS, MongoDB, firebase",
+        "live_link": "https://kiddie-korner-ecfac.web.app/",
+        "github_link": "https://github.com/salam46khan/kiddie-kornar",
+        "video_link": "https://www.youtube.com/@ExplorewithSalam"
+    },
+    {
+        "_id": 6,
+        "project_name": "Auto Majesty",
+        "description": "E-commerce website.",
+        "cover_photo": "https://i.ibb.co/QmGXB9Z/car.png",
+        "technology": "Javascript, React JS, Express JS, MongoDB, firebase",
+        "live_link": "https://auto-majesty.web.app/",
+        "github_link": "https://github.com/salam46khan/auto-majesty",
+        "video_link": "https://www.youtube.com/@ExplorewithSalam"
+    }
+]

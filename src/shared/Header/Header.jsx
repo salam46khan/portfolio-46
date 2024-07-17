@@ -35,7 +35,7 @@ const Header = () => {
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/about'}>About Me</NavLink></li>
         <li><NavLink to={'/contact'}>Contact Me</NavLink></li>
-        
+
     </>
     return (
         <div className='fixed w-full top-2 left-0 z-50' id='nav'>
@@ -45,7 +45,7 @@ const Header = () => {
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                                 <div className=" bg-pink-400 w-10 h-10 flex justify-center items-center text-xl rounded-full relative -mx-3">
-                                <HiMiniBars3 />
+                                    <HiMiniBars3 />
                                 </div>
                             </div>
                             <ul
@@ -54,6 +54,13 @@ const Header = () => {
                                 {navItem}
                             </ul>
                         </div>
+                        <div className="logo h-12 hidden md:block">
+                            <Link to={'/'}>
+                                <img className='h-full' src={logo} alt="" />
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="navbar-center md:hidden">
                         <div className="logo h-12">
                             <Link to={'/'}>
                                 <img className='h-full' src={logo} alt="" />

@@ -4,7 +4,7 @@ import MyBtn from '../../../shared/MyBtn/MyBtn';
 import './AboutSection.css'
 const AboutSection = () => {
     return (
-        <div className="container flex flex-col md:flex-row justify-center items-center gap-5 p-3 text-darkColor">
+        <div className="container flex flex-col md:flex-row justify-center items-center gap-5 p-3 text-darkColor pt-5 md:pt-0">
             <div className="w-full md:w-1/2">
                 <img className='w-full about-pic' src={aboutPic} alt="" />
             </div>

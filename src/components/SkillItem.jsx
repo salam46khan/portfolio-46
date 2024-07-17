@@ -7,8 +7,6 @@ import Tilt from 'react-parallax-tilt';
 
 
 const SkillItem = ({ skill }) => {
-    // const {sub_title} = skill;
-    console.log(skill);
     return (
         <div>
             <Tilt
