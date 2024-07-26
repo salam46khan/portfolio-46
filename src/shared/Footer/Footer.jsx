@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
             <hr className=' border-slate-300 dark:border-black opacity-35' />
             <div className="container">
-            <p className='text-start mt-2'>Copyright &#169; 2024, All Right Reserved salam-46-portfolio.netlify.app</p>
+            <p className='text-start mt-2'>Copyright &#169; 2024, All Right Reserved </p>
             </div>
         </div>
     );

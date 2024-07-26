@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import AboutSection from './AboutSection/AboutSection';
 import SkillSection from './SkillSection/SkillSection';
 import ProjectSection from './ProjectSection/ProjectSection';
+import Education from './Education/Education';
 
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
                 <SkillSection></SkillSection>
                 <ProjectSection></ProjectSection>
                 <div className="blur-bg bottom-36 left-0 translate-x-10"></div>
+            </div>
+            <div className='relative overflow-hidden'>
+                <Education></Education>
             </div>
         </div>
     );
