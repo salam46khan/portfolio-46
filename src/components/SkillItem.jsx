@@ -10,13 +10,13 @@ const SkillItem = ({ skill }) => {
     return (
         <div>
             <Tilt
-                className="background-stripes parallax-effect"
+                className="background-stripes parallax-effect rounded-md overflow-hidden"
                 perspective={1000}
                 glareEnable={true}
                 glareMaxOpacity={0.65}
                 scale={1.03}
             >
-                <div className='bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md p-3 rounded-md w-full shadow shadow-[#0005] dark:shadow-[#0009]'>
+                <div className='bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md p-3 rounded-md w-full shadow shadow-[#0005] dark:shadow-[#0009] '>
                     <div className='flex justify-start'>
                         <div className="img h-12 py-1 pr-1 w-12">
                             <img className='w-full' src={skill?.icon} alt="" />
