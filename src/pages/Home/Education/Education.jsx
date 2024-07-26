@@ -26,7 +26,7 @@ const Education = () => {
                         contentStyle={{ background: '#F574B520', }}
                         contentArrowStyle={{ borderRight: '7px solid #F574B520' }}
                     >
-                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-xl text-pinkColor">
+                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-2xl text-pinkColor">
                             Secondary School Certificate (SSC)
                         </h3>
 
@@ -46,10 +46,10 @@ const Education = () => {
                         date="2016"
                         iconStyle={{ background: '#FF69CD', color: '#fff' }}
                         icon={<GrCertificate />}
-                        contentStyle={{ background: '#F574B520', }}
+                        contentStyle={{ background: '#F574B520', backdropFilter: 'blur(20px)',}}
                         contentArrowStyle={{ borderRight: '7px solid #F574B520' }}
                     >
-                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-pinkColor text-xl">
+                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-pinkColor text-2xl">
                             Higher Secondary Certificate (HSC)
                         </h3>
 
@@ -71,7 +71,7 @@ const Education = () => {
                         contentStyle={{ background: '#F574B520', }}
                         contentArrowStyle={{ borderRight: '7px solid #F574B520' }}
                     >
-                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-pinkColor text-xl">
+                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-pinkColor text-2xl">
                             Bachelor of Social Science (BSS Hon&apos;s)
                         </h3>
 
@@ -93,7 +93,7 @@ const Education = () => {
                         contentStyle={{ background: '#F574B520', }}
                         contentArrowStyle={{ borderRight: '7px solid #F574B520' }}
                     >
-                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-pinkColor text-xl">
+                        <h3 className=" vertical-timeline-element-title font-SubTitleText text-pinkColor text-2xl">
                             Complete Web Development Course With Jhankar Mahbub
                         </h3>
 

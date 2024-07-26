@@ -4,6 +4,7 @@ import AboutSection from './AboutSection/AboutSection';
 import SkillSection from './SkillSection/SkillSection';
 import ProjectSection from './ProjectSection/ProjectSection';
 import Education from './Education/Education';
+import Choose from './Choose/Choose';
 
 const Home = () => {
     return (
@@ -21,7 +22,11 @@ const Home = () => {
                 <div className="blur-bg bottom-36 left-0 translate-x-10"></div>
             </div>
             <div className='relative overflow-hidden'>
+                <div className="blur-bg top-56 right-0 translate-x-10"></div>
                 <Education></Education>
+                <Choose></Choose>
+                <div className="blur-bg bottom-[30%] left-0 translate-x-10 "></div>
+                <div className="blur-bg bottom-36 right-0 translate-x-10"></div>
             </div>
         </div>
     );
