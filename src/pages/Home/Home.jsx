@@ -5,6 +5,7 @@ import SkillSection from './SkillSection/SkillSection';
 import ProjectSection from './ProjectSection/ProjectSection';
 import Education from './Education/Education';
 import Choose from './Choose/Choose';
+import Contact from './Contact/Contact';
 
 const Home = () => {
     return (
@@ -25,7 +26,8 @@ const Home = () => {
                 <div className="blur-bg top-56 right-0 translate-x-10"></div>
                 <Education></Education>
                 <Choose></Choose>
-                <div className="blur-bg bottom-[30%] left-0 translate-x-10 "></div>
+                <div className="blur-bg bottom-[40%] left-0 translate-x-10 "></div>
+                <Contact></Contact>
                 <div className="blur-bg bottom-36 right-0 translate-x-10"></div>
             </div>
         </div>

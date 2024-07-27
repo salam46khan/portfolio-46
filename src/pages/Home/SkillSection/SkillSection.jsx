@@ -10,7 +10,7 @@ const SkillSection = () => {
     },[])
 
     return (
-        <div className='container relative z-10 text-darkColor dark:text-lightColor py-10 p-3'>
+        <div className='container relative z-10 text-darkColor dark:text-lightColor py-14 p-3'>
             <div className="container mx-auto text-center">
                 <h3 className="border-b-4 border-pink-400 inline-block px-3 text-3xl mb-3 font-bold">
                     My Skills

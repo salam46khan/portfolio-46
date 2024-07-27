@@ -9,7 +9,7 @@ const ProjectSection = () => {
         .then(data => setProject(data))
     },[])
     return (
-        <div className='container text-darkColor dark:text-lightColor py-10 p-3 z-10 relative'>
+        <div className='container text-darkColor dark:text-lightColor py-14 p-3 z-10 relative'>
             <div className=" mx-auto text-center">
                 <h3 className="border-b-4 border-pink-400 inline-block px-3 text-3xl mb-3 font-bold">
                     My Project

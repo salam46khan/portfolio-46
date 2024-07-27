@@ -158,7 +158,7 @@
     align-items: center;
     overflow: hidden;
 }
-.hero-btn-group>button{
+.hero-btn-group> .links{
     border: 2px solid #FF66C4;
     width: 140px;
     padding: 10px;
@@ -166,6 +166,9 @@
     font-size: 14px;
     font-weight: 500;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-btn-group> .bridge{
     position: absolute;
@@ -219,4 +222,25 @@
     .hero-btn-group{
         margin: 0 auto;
     }
+  }
+
+
+  .bannerImg{
+    background: url('../../../assets/bg-animation.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+  }
+  .bannerImg img{
+    height: 120%;
+    width: 120%;
+    object-fit: cover;
+    background-blend-mode: multiply;
+  }
+  .imgOverShadow{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 200;
   }

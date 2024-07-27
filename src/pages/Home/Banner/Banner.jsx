@@ -1,9 +1,16 @@
 import './Banner.css'
-import MyPhoto from '../../../assets/salam.png'
+import MyPhoto from '../../../assets/salam-004.png'
 import { MdStarRate } from "react-icons/md";
 import { TypeAnimation } from 'react-type-animation';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Banner = () => {
+    const navigate = useNavigate()
+
+    const handleDownloadCV = () => {
+        console.log('cv');
+        navigate("/https://drive.google.com/file/d/1r5lu1AEG3pxBODb01fN69EF1_gDnj0b7/view?usp=sharing")
+    }
     return (
         <div className="banner z-10 text-darkColor">
             <div className="container h-full px-4">
@@ -29,8 +36,12 @@ const Banner = () => {
                                 <MdStarRate />
                             </div>
                         </div>
-                        <div className="img-cercle m-auto border-4 border-pinkColor flex justify-center items-center">
-                            <img className='w-[95%] z-50 rounded-full' src={MyPhoto} alt="" />
+                        <div className="img-cercle m-auto border-4 border-slate-200 dark:border-slate-700 flex justify-center items-center">
+
+                            <div className='w-[95%] z-40 rounded-full bannerImg'>
+                                <img className=' rounded-full' src={MyPhoto} alt="" />
+                                <div className="imgOverShadow z-50"></div>
+                            </div>
                         </div>
                         <div className="round"></div>
                         <div className="round-2"></div>
@@ -62,16 +73,16 @@ const Banner = () => {
                             </div>
                             <p className='font-NormalText w-full z-50 pb-3 md:pb-6'>Expert with HTML, CSS, SASS, Javascript, Bootstrap, tailwind CSS, React JS, Express JS, and MongoDB </p>
                             <div className='hero-btn-group'>
-                                <button className=' bg-pinkColor'>
+                                <Link to={'https://github.com/salam46khan'} target='_blank' className=' bg-pinkColor links'>
                                     Visit Github
-                                </button>
+                                </Link>
                                 <div className="bridge z-10">
                                     <div className="top bg-lightColor dark:bg-darkColor"></div>
                                     <div className="bottom bg-lightColor dark:bg-darkColor"></div>
                                 </div>
-                                <button className=' dark:bg-darkColor bg-lightColor hover:bg-pinkColor dark:hover:bg-pinkColor duration-300'>
+                                <Link to={'https://drive.google.com/file/d/1r5lu1AEG3pxBODb01fN69EF1_gDnj0b7/view?usp=sharing'} target='_blank' className='links dark:bg-darkColor bg-lightColor hover:bg-pinkColor dark:hover:bg-pinkColor duration-300'>
                                     Download CV
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

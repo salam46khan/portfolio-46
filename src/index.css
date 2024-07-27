@@ -17,13 +17,13 @@
 
 .blur-bg {
     position: absolute;
-    width: 30%;
-    height: 40vh;
+    width: 35%;
+    height: 50vh;
     border-radius: 50%;
     z-index: 1;
     filter: blur(60px);
     transform: rotate(30deg);
-    background: linear-gradient(#66cfff60 , #FF66C465 );
+    background: linear-gradient(#66cfff28 , #ff66c444 );
 }
 
 

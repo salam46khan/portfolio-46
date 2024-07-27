@@ -1,0 +1,57 @@
+.contactProfile{
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.imgBox{
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+    background: url('../../../assets/v-3.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px #00000080;
+}
+.imgBox img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.contactProfile:hover .myName{
+    animation: bounce 1.3s ease-in-out;
+}
+
+
+@keyframes bounce {
+
+    0%,
+    30%,
+    60%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+
+    20% {
+        -webkit-transform: translateY(-15px);
+        opacity: 0.4;
+    }
+
+    40% {
+        -webkit-transform: translateY(-10px);
+        opacity: 0.7;
+    }
+}
+
+
+/* for contact form */
+.contactInput{
+    box-shadow: inset 3px 2px 3px #ffffff50, inset -2px -1px 3px #00000050;
+}
