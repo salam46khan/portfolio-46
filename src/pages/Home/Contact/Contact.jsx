@@ -8,10 +8,20 @@ const Contact = () => {
         <div className='container text-darkColor dark:text-lightColor py-14 p-3 z-10 relative'>
             <div className=" flex justify-center text-center mb-3">
                 <div className=" mx-auto text-center">
-                    <h3 className="border-b-4 border-pink-400 inline-block px-3 text-3xl mb-3 font-bold">
+                    <h3
+                        data-aos="fade-up"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="700"
+                        data-aos-anchor-placement="bottom-bottom"
+                        className="border-b-4 border-pink-400 inline-block px-3 text-3xl mb-3 font-bold">
                         Contact Me
                     </h3>
-                    <p className="md:w-2/3 mx-auto">
+                    <p
+                        data-aos="fade-up"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="800"
+                        data-aos-anchor-placement="center-bottom"
+                        className="md:w-2/3 mx-auto">
                         Bringing pixels to life and crafting seamless digital experiences. Let's turn ideas into reality—contact me, and let the front-end journey begin!
                     </p>
                 </div>
@@ -23,11 +33,21 @@ const Contact = () => {
                 </div>
                 <div className="md:w-4/6 w-full">
                     <div className='flex flex-col md:flex-row gap-5 mb-7'>
-                        <div className='w-full md:w-1/2 rounded-md bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md shadow shadow-[#0005] dark:shadow-[#0009] p-4'>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="800"
+                            data-aos-anchor-placement="top-bottom"
+                            className='w-full md:w-1/2 rounded-md bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md shadow shadow-[#0005] dark:shadow-[#0009] p-4'>
                             <h3 className='text-xl font-bold text-pinkColor'>Phone Number</h3>
                             <p>+8801771-393709</p>
                         </div>
-                        <div className='w-full md:w-1/2 rounded-md bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md shadow shadow-[#0005] dark:shadow-[#0009] p-4'>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="800"
+                            data-aos-anchor-placement="top-bottom"
+                            className='w-full md:w-1/2 rounded-md bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md shadow shadow-[#0005] dark:shadow-[#0009] p-4'>
                             <h3 className='text-xl font-bold text-pinkColor'>Email Address</h3>
                             <p>salam46.khan@gmail.com</p>
                         </div>

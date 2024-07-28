@@ -2,9 +2,14 @@ import React from 'react';
 import './componentsStyle/ProjectItem.css'
 import { Link } from 'react-router-dom';
 import { FaExternalLinkAlt, FaGithub, FaVideo } from 'react-icons/fa';
-const ProjectItem = ({project}) => {
+const ProjectItem = ({ project }) => {
     return (
-        <div className='project-card bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md p-3 rounded-md w-full shadow shadow-[#0005] dark:shadow-[#0009] flex flex-col md:flex-row gap-3'>
+        <div
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="800"
+            data-aos-anchor-placement="center-bottom"
+            className='project-card bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md p-3 rounded-md w-full shadow shadow-[#0005] dark:shadow-[#0009] flex flex-col md:flex-row gap-3'>
             <div className="shadow-line"></div>
             <div className='w-full md:w-[48%] overflow-hidden rounded'>
                 <img className='w-full h-full object-cover rounded' src={project?.cover_photo} alt="" />

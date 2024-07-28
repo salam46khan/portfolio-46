@@ -1,14 +1,16 @@
 import React from 'react';
-import html from '../assets/html.png'
 import ProgressBar from '@ramonak/react-progress-bar';
 import Tilt from 'react-parallax-tilt';
-// import Tilt from 'index';
-// import './ParallaxEffect.demozap.css';
+
 
 
 const SkillItem = ({ skill }) => {
     return (
-        <div>
+        <div
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="800"
+            data-aos-anchor-placement="center-bottom">
             <Tilt
                 className="background-stripes parallax-effect rounded-md overflow-hidden"
                 perspective={1000}

@@ -8,14 +8,29 @@ const Education = () => {
         <div className="container text-darkColor dark:text-lightColor py-14 p-3 z-10 relative">
 
             <div className=" mx-auto text-center">
-                <h3 className="border-b-4 border-pink-400 inline-block px-3 text-3xl mb-3 font-bold">
+                <h3
+                    data-aos="fade-up"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="700"
+                    data-aos-anchor-placement="bottom-bottom"
+                    className="border-b-4 border-pink-400 inline-block px-3 text-3xl mb-3 font-bold">
                     Education
                 </h3>
-                <p className="md:w-2/3 mx-auto">
+                <p
+                    data-aos="fade-up"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="800"
+                    data-aos-anchor-placement="center-bottom"
+                    className="md:w-2/3 mx-auto">
                     Educate minds, ignite potential, shape destinies—a beacon of knowledge lighting the path to a brighter future.
                 </p>
             </div>
-            <div className=" mt-5">
+            <div
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="700"
+                data-aos-anchor-placement="top-bottom"
+                className=" mt-5">
 
                 <VerticalTimeline lineColor='#FF69CD' >
                     <VerticalTimelineElement
@@ -46,7 +61,7 @@ const Education = () => {
                         date="2016"
                         iconStyle={{ background: '#FF69CD', color: '#fff' }}
                         icon={<GrCertificate />}
-                        contentStyle={{ background: '#F574B520', backdropFilter: 'blur(20px)',}}
+                        contentStyle={{ background: '#F574B520', backdropFilter: 'blur(20px)', }}
                         contentArrowStyle={{ borderRight: '7px solid #F574B520' }}
                     >
                         <h3 className=" vertical-timeline-element-title font-SubTitleText text-pinkColor text-2xl">

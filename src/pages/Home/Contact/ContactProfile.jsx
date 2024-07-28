@@ -5,7 +5,12 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import MyBtn from '../../../shared/MyBtn/MyBtn';
 const ContactProfile = () => {
     return (
-        <div className="contactProfile py-10 p-3 rounded-md    bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md w-full shadow shadow-[#0005] dark:shadow-[#0009] ">
+        <div
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top-bottom"
+            className="contactProfile py-10 p-3 rounded-md    bg-darkColor bg-opacity-15 backdrop-blur-md dark:bg-lightColor dark:bg-opacity-20 dark:backdrop-blur-md w-full shadow shadow-[#0005] dark:shadow-[#0009] ">
             <div className="imgBox">
                 <img src={contactPic} alt="" />
             </div>
